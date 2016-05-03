@@ -1,0 +1,21 @@
+{
+  "name": "ysftest",
+  "description": "云商服自动化测试",
+  "version": "0.0.1",
+  "repository": "https://github.com/NSFA/ysftest",
+  "license": "MIT",
+  "scripts": {
+    "ysftest": "node index.js"
+  },
+  "bin": {
+    "ysftest": "./bin/www"
+  },
+  "keywords": [
+    "karam",
+    "yuxinIm",
+    "outotest"
+  ],
+  "dependencies": {
+
+  }
+}
