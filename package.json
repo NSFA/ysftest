@@ -8,7 +8,7 @@
     "ysftest": "node index.js"
   },
   "bin": {
-    "ysftest": "./bin/www"
+    "ysftest": "karma start karma.conf.js"
   },
   "keywords": [
     "karam",
@@ -16,6 +16,24 @@
     "outotest"
   ],
   "dependencies": {
-
+    "request-promise" : "^3.0.0",
+    "watchify": "^3.7.0",
+    "jade" : "^1.11.0",
+    "graceful-fs": "^4.1.3",
+    "browserify":"^13.0.0",
+    "request":"^2.72.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "chai": "^3.5.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-browserify": "^5.0.4",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-coverage": "^0.5.5",
+    "karma-jasmine": "^0.3.8",
+    "karma-mocha": "^1.0.1",
+    "mocha": "^2.4.5"
   }
 }
