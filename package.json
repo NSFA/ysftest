@@ -16,12 +16,12 @@
     "outotest"
   ],
   "dependencies": {
-    "request-promise" : "^3.0.0",
+    "request-promise": "^3.0.0",
     "watchify": "^3.7.0",
-    "jade" : "^1.11.0",
+    "jade": "^1.11.0",
     "graceful-fs": "^4.1.3",
-    "browserify":"^13.0.0",
-    "request":"^2.72.0"
+    "browserify": "^13.0.0",
+    "request": "^2.72.0"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
